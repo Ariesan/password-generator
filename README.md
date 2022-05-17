@@ -18,8 +18,8 @@ _*Stretch means* learner will earn extra point if able to provide requirement, b
 
  I use math.random & math.floor to create random password, and after that display all possible password into 4 area.
 
- For length of password, i ask user to input specific desired positive number, and grab that value for password length/
+ For length of password, i ask user to input specific desired positive number, and grab that value for password length.
 
- User also, able to copy any choice of password, using navigator.clipboard.writetext function.
+ After hours of googling and reading document, i know that navigator.clipboard.writetext() function, can make any text to be copied to clipboard. hence i can finish the second stretch, making user able to copy any choice of password.
 
 
