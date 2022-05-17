@@ -1,6 +1,7 @@
 # password-generator
 
 I've created this following task from [scrimba](https://scrimba.com/learn/learnjavascript).
+
 A Responsive app to generate random password is my second Solo Project. 
 Which means, Scrimba Team, only given us specific requirement trough Figma, after that we have to create the app by our self.
 
