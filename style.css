@@ -1,0 +1,101 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+p {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.desc-text {
+    font-size: 0.6rem;
+}
+
+.container {
+    background-color: #183153;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    height: 85vh;
+    width: 80vw;
+    margin-top: 40px;
+    
+
+}
+
+span {
+    color: #6eb7f2;
+}
+
+input {
+    width: 15%;
+    padding: 9px;
+    border-radius: 3px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#password-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+button {
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    font-size: 0.8rem;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #74c0fc;
+    color: #183153;
+    
+}
+
+hr {
+    margin: 20px 0px;
+}
+
+#reload {
+    font-size: 0.9rem;
+    font-weight: bold;
+    position: relative;
+    width: fit-content;
+    
+}
+
+.pwd {
+    background-color: #fff;     
+    font-size: 0.7rem;
+    width: 40%;   
+    padding: 10px;
+    
+}
+
+/* to hide arrow from input number in : Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+
+/* to hide arrow from input number in : Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}

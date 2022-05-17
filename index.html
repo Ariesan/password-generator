@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/c3189a4530.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+
+    <main class="container">
+        
+        <h1> Generate a <br/><span>random password</span></h1>
+        <p>Never use an insecure password again</p>
+        <br/>
+
+        <p class="desc-text"> (please input password length between 6-21)</p>
+        <input type="number" id="user-input" value="9"> 
+        <button id="generate-btn" onclick="getRandomPassword()"><i class="fas fa-bolt"></i> Generate Password</button>
+        
+        
+        <hr/>
+        <section>
+            <div id="password-container">
+                <button id="password1" class="pwd" onclick="copyPasswordResult1()" title="copy to clipboard">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </button>
+                <button id="password2" class="pwd" onclick="copyPasswordResult2()" title="copy to clipboard">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </button>
+                <button id="password3" class="pwd" onclick="copyPasswordResult3()" title="copy to clipboard">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </button>
+                <button id="password4" class="pwd" onclick="copyPasswordResult4()" title="copy to clipboard">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </button>
+            </div>
+            <button id="reload"><i class="fa-solid fa-arrows-rotate"></i> Reload</button>
+        </section>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
