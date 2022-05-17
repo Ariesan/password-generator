@@ -14,6 +14,7 @@ This is my second Solo Project. Whisc means, Scrimba Team, only given us specifi
   
 _*Stretch means* learner will earn extra point if able to provide requirement, because that specific requirement is not teach yet._ 
 
+<br/>
 
  I use math.random & math.floor to create random password, and after that display all possible password into 4 area.
 
