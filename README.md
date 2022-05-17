@@ -1,7 +1,8 @@
 # password-generator
 
 I've created this following task from [scrimba](https://scrimba.com/learn/learnjavascript).
-This is my second Solo Project. Whisc means, Scrimba Team, only given us specific requirement trough Figma, after that we have to create the app by our self.
+A Responsive app to generate random password is my second Solo Project. 
+Which means, Scrimba Team, only given us specific requirement trough Figma, after that we have to create the app by our self.
 
 **Requirement**
 
@@ -21,5 +22,7 @@ _*Stretch means* learner will earn extra point if able to provide requirement, b
  For length of password, i ask user to input specific desired positive number, and grab that value for password length.
 
  After hours of googling and reading document, i know that navigator.clipboard.writetext() function, can make any text to be copied to clipboard. hence i can finish the second stretch, making user able to copy any choice of password.
+ 
+ 
 
 
